@@ -20,7 +20,7 @@ export default function ActivityPage({
 
   // Fixed letter message parsing to show complete content
   const letterMessage = textConfig.letter.letterMessage;
-  const lines = letterMessage.split('\n').filter(line => line.trim() !== ''); // Remove empty lines
+  const lines = letterMessage.split('\n').filter((line: string) => line.trim() !== ''); // Remove empty lines
   
   // Get the greeting (first line)
   const greeting = lines[0] || textConfig.letter.letterGreeting;
@@ -179,7 +179,7 @@ export default function ActivityPage({
                   {/* Wax Seal */}
                   {!isEnvelopeOpen && (
                     <div className="absolute top-12 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-[#f04299] rounded-full flex items-center justify-center text-white text-xl shadow-md animate-pulse">
-                      💌
+                      🎀
                     </div>
                   )}
 

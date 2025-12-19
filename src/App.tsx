@@ -77,8 +77,8 @@ function App() {
           </svg>
 
           {/* Additional romantic elements */}
-          <div className="heart-1">💕</div>
-          <div className="heart-2">💖</div>
+          <div className="heart-1">💮</div>
+          <div className="heart-2">💫</div>
           <div className="sparkle-text-1">✨</div>
           <div className="sparkle-text-2">🌸</div>
         </div>

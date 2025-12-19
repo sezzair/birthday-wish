@@ -1,23 +1,23 @@
 const textConfig = {
   landing: {
-    title: "Happy Birthday, Sassy queen! 🎂✨",
-    subtitle: "Today is all about celebrating the most amazing person in my world. I've created something magical just for you on your special day...",
+    title: "Happy belated Birthday, Sassy queen! 🎂✨",
+    subtitle: "Thank you so much for being such a wonderful friend of mine... I've created something magical just for you💅...",
     lastLine: "Ready for your birthday surprise?",
-    button: "Let's Gooo",
+    button: "Let's Gooo!",
     footer: "Made with endless love for your special year ( •̀  ω •́ )✧",
   },
 
   // ActivityPage/Letter configuration
   letter: {
-    headerTitle: "A Birthday Love Letter 💌",
+    headerTitle: "A Birthday Letter 📨",
     headerSubtitle: "From my heart to the birthday queen",
     letterHeaderTitle: "To The Greatest Sassy Queen!",
     letterMessage: `My dearest birthday girl,
 
-Today marks another year of your incredible existence, and I couldn't be more grateful to celebrate it with you.
+This year marks the first year of your incredible existence in my life, and I couldn't be more grateful to celebrate it with you.
 
-You bring so much joy, laughter, and love into this world - and into my life. You deserve all the magic, all the dreams, and all the love this world has to offer. 💕`,
-    signature: "Forever yours 💕",
+You bring so much joy and laughter into this world... and into my life. You are truely the person who deserves all the blessing you get 🫶`,
+    signature: "your dear friend",
     envelopeClickHint: "Click to open your birthday surprise",
     specialDeliveryText: "Birthday Special Delivery 🎂",
     continueButton: "Continue It ✨"
@@ -51,9 +51,9 @@ You bring so much joy, laughter, and love into this world - and into my life. Yo
     chooseTrackHint: "Choose your birthday soundtrack ✨",
     continueButton: "Continue to Birthday Surprises ✨",
     tracks: [
-      { id: 1, title: "Dil Ka Jo Haal Hai", caption: "Here's to making this year unforgettable 🌟" },
-      { id: 2, title: "Dil Cheeze Tujhe Dedi", caption: "Because today is all about YOU, queen! 👑" },
-      { id: 2, title: "If the world was ending...", caption: "Every beat celebrates your beautiful heart 💖" },
+      { id: 1, title: "prettiest girl!", caption: "Because today is all about YOU, queen! 👑" },
+      { id: 2, title: "Wildflower and Barley", caption: "Here's to making this year unforgettable 🌟" },
+      { id: 2, title: "cheri cheri lady", caption: "Every beat celebrates your beautiful heart 🫀" },
     ]
   },
 
@@ -69,12 +69,12 @@ You bring so much joy, laughter, and love into this world - and into my life. Yo
     popup: {
       title: "All Birthday Wishes Unlocked!",
       message: "Each wish carries my love and hopes for your amazing new year ahead. ✨",
-      openFinal: "Open Final Birthday Letter 💌",
+      openFinal: "Open Final Birthday Letter 🌟",
       stay: "Enjoy the wishes a bit longer"
     },
     cardMessages: [
-      "Happy Birthday to the girl who makes every day feel like a celebration! 🎉💕",
-      "Another year of being absolutely incredible, beautiful, and perfect just the way you are! ✨",
+      "Every 'shai baat hai', every 'badhiya hai',every 'Acha hai' you've ever said, literally 🤌.",
+      "With your shyness and introvert nature like barley you do have a secret expressive and wild nature like wildflower! which is what makes you, YOU.",
       "May this new year bring you endless joy, love, and all the dreams your heart desires! 🌟💖"
     ]
   },
@@ -82,44 +82,45 @@ You bring so much joy, laughter, and love into this world - and into my life. Yo
   finalLetter: {
     // Page header
     pageTitle: "Final Birthday Letter",
-    pageSubtitle: "A special message sealed with love 💕",
+    pageSubtitle: "A special message.🐻‍❄️",
     
     // Letter content
-    title: "Final Birthday Love Letter",
-    letterIcon: "💌",
-    stickerAlt: "Love Letter",
+    title: "Final Birthday Letter",
+    letterIcon: "🤍",
+    stickerAlt: "Letter",
     
     // Sealing animation
     sealingText: "Sealing your birthday wishes...",
-    sealingEmoji: "💌",
+    sealingEmoji: "🎀",
     
     // Buttons
     sealButton: "Seal The Letter 🎂",
     restartButton: "Experinece Again",
     
     // Sealed state
-    sealedTitle: "Birthday Letter Sealed with Love",
-    sealedSubtitle: "Happy Birthday, My Everything 🎉",
-    sealedEmoji: "💝",
+    sealedTitle: "Birthday Letter Sealed with friendship",
+    sealedSubtitle: "Happy Birthday, Sassy queen 🎉",
+    sealedEmoji: "🐻‍❄️",
     heartCount: 7,
     
     // Signature and actions
-    typedDefault: "Forever Yours, Happy Birthday! 💕🎂",
+    typedDefault: "Your bestfriend, Happy Birthday! 🎂",
     experienceAgain: "Experience Birthday Magic Again ✨",
-    sendKissButton: "Send Birthday Kisses 💋",
+    sendKissButton: "Send Birthday Cakes 🎂",
     dateLocale: "en-US",
     
     // Decorative elements
     decorativeEmojis: {
-      topRight: "💕",
-      bottomLeft: "💖"
+      topRight: "✨",
+      bottomLeft: "💫"
     },
     
     // Letter content
     letterGreeting: "My dearest birthday princess,",
     letterParagraphs: [
       "May this new year bring you everything your heart desires and more joy than you can imagine.",
-      "Happy Birthday, my love. You deserve the world and so much more. 🎂✨"
+      "Don't lose your uniqueness, stay happy stay blessed 🎂✨",
+      "Once again, A very Happy Birthday!!! "
     ],
     sealingNote: "Sealing will complete your birthday experience."
   },

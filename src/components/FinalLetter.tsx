@@ -50,7 +50,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
     return () => {
       if (typingTimerRef.current) {
         window.clearInterval(typingTimerRef.current);
-        timingTimerRef.current = null;
+        typingTimerRef.current = null;
       }
     };
   }, [isSealed]);
@@ -112,7 +112,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
               animationDelay: `${k.delay}ms`,
             }}
           >
-            <span className="block">💋</span>
+            <span className="block">🎂</span>
             <span className="sparkle" />
           </div>
         ))}
@@ -197,7 +197,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
 
                     {/* Letter paragraphs */}
                     <div className="space-y-4 mb-6">
-                      {textConfig.finalLetter.letterParagraphs.map((paragraph, index) => (
+                      {textConfig.finalLetter.letterParagraphs.map((paragraph: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
                         <p 
                           key={index}
                           className={`${

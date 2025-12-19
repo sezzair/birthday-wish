@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import textConfig from "../textConfig";
 import { useAudio } from "../contexts/AudioContext";
 
-import music1 from "../music/music1.mp3";
-import music2 from "../music/music2.mp3";
-import music3 from "../music/music3.mp3";
+import music1 from "../music/Prettiest girl.opus";
+import music2 from "../music/Wildflower and Barley_1.m4a";
+import music3 from "../music/Cheri Cheri Lady_1.m4a";
 
 import cover1 from "../musiccover/music1.jpg";
 import cover2 from "../musiccover/music2.jpg";

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import textConfig from '../textConfig';
 
-import Img1 from "../imgs/pic1.gif"
-import Img2 from "../imgs/pic2.gif"
-import Img3 from "../imgs/pic3.jpg"
+import Img1 from "../imgs/img1.jpg"
+import Img2 from "../imgs/img2.jpg"
+import Img3 from "../imgs/img3.jpg"
 
 interface Card {
   id: number;
